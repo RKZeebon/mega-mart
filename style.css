@@ -74,7 +74,7 @@
       font-style: normal;
       font-weight: 400;
       line-height: 18px;
-      padding-left: 24px;
+      padding-left: 18px;
       position: relative;
       /* 128.571% */
   }
@@ -111,4 +111,124 @@
 
   .navbar-text ul li:nth-child(5)::before {
       content: url(./assets/icon/Discount.png);
+  }
+
+
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 21px 0;
+  }
+
+  .navbar .navbar-left {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+  }
+
+  .navbar .navbar-right {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+  }
+
+  .navbar .navbar-search {
+      position: relative;
+  }
+
+  .navbar .navbar-search input {
+      width: 507px;
+      height: 48px;
+      padding: 15px 0 15px 44px;
+      background-color: var(--bg-second-Color);
+      border: none;
+      color: var(--text-Color);
+      font-size: 14px;
+      font-weight: 400;
+      border-radius: 10px;
+  }
+
+  .navbar .navbar-search::before,
+  .navbar .navbar-search::after {
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .navbar .navbar-search::before {
+      content: url(./assets/icon/Search.png);
+      left: 16px;
+  }
+
+  .navbar .navbar-search::after {
+      content: url(./assets/icon/list.png);
+      right: 16px;
+  }
+
+  .navbar .nav-links ul {
+      display: flex;
+      gap: 20px;
+  }
+
+  .navbar .nav-links ul li {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+  }
+
+  .nav-links ul img {
+      width: 24px;
+      height: 24px;
+  }
+
+  .nav-links ul li:nth-child(2) {
+      width: 1px;
+      height: 24px;
+      background: #D9D9D9;
+  }
+
+  .navbar-options {
+      border-top: 1px solid #D9D9D9;
+      border-bottom: 1px solid #D9D9D9;
+      padding: 16px 0;
+  }
+
+  .navbar-options ul {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .navbar-options li {
+      padding: 9px 14px;
+      background-color: var(--bg-second-Color);
+      border-radius: 18px;
+  }
+
+  .navbar-options select {
+      background-color: transparent;
+      border: none;
+      color: var(--heading-Color);
+  }
+
+  .navbar-options option {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 18px;
+  }
+
+  .navbar-options li:hover,
+  .navbar-options li:hover select {
+      background-color: var(--primary-Color);
+      color: var(--white-text-Color);
+  }
+
+  /* only for showing the hover effect on options */
+  .navbar-options .active,
+  .navbar-options .active select {
+      background-color: var(--primary-Color);
+      color: var(--white-text-Color);
   }
