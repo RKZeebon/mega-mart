@@ -81,19 +81,16 @@
       color: var(--primary-Color);
   }
 
-  .section-heading button {
+  .section-heading a {
       color: var(--heading-Color);
-      border: none;
-      background-color: transparent;
       font-size: 16px;
       font-weight: 500;
       line-height: 18px;
       padding-right: 24px;
       position: relative;
-      cursor: pointer;
   }
 
-  .section-heading button::after {
+  .section-heading a::after {
       content: url(./assets/icon/Arrow-Right.png);
       width: 18px;
       height: 18px;
