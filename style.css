@@ -306,7 +306,7 @@
       margin-top: 20px;
       padding: 0 90px;
       background: #212844;
-      background-image: url(./assets/top-right-strock-ellipse.png), url(./assets/top-right-fill-ellipse.png), url(./assets/bottom-ellipse.png), url(./assets/bottom-ellipse-strock.png);
+      background-image: url(./assets/logo-and-backgrounds/top-right-strock-ellipse.png), url(./assets/logo-and-backgrounds/top-right-fill-ellipse.png), url(./assets/logo-and-backgrounds/bottom-ellipse.png), url(./assets/logo-and-backgrounds/bottom-ellipse-strock.png);
       background-position: top right, top right, bottom right 248px, bottom right 233px;
       background-repeat: no-repeat;
 
@@ -491,7 +491,7 @@
 
   .brands-cards .brand-card:first-child {
       background-color: #313131;
-      background-image: url(./assets/iphone-masking.png);
+      background-image: url(./assets/logo-and-backgrounds/iphone-masking.png);
       background-repeat: no-repeat;
       background-position: top right;
   }
@@ -520,7 +520,7 @@
 
   .brands-cards .brand-card:nth-child(2) {
       background-color: #FFF3CC;
-      background-image: url(./assets/realme-masking.png);
+      background-image: url(./assets/logo-and-backgrounds/realme-masking.png);
       background-repeat: no-repeat;
       background-position: top right;
   }
@@ -548,7 +548,7 @@
 
   .brands-cards .brand-card:last-child {
       background-color: #FFECDF;
-      background-image: url(./assets/xiaomi-masking.png);
+      background-image: url(./assets/logo-and-backgrounds/xiaomi-masking.png);
       background-repeat: no-repeat;
       background-position: top right;
   }
@@ -614,7 +614,7 @@
 
   footer {
       background-color: var(--primary-Color);
-      background-image: url(./assets/footer-bg-fill.png), url(./assets/footer-bg-strock.png);
+      background-image: url(./assets/logo-and-backgrounds/footer-bg-fill.png), url(./assets/logo-and-backgrounds/footer-bg-strock.png);
       background-position: top right;
       background-repeat: no-repeat;
 
@@ -650,7 +650,6 @@
 
   .footer-top .contact .whats-app::before,
   .footer-top .contact .call::before {
-      content: url(./assets/icon/whatsapp.png);
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
