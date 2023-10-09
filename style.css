@@ -443,10 +443,6 @@
       align-items: center;
   }
 
-  .catagory-card .card-img img {
-      display: block;
-  }
-
   .catagory-card h5 {
       color: var(--heading-Color);
       text-align: center;
@@ -560,4 +556,48 @@
   .card-navigation-dots {
       margin-top: 30px;
       text-align: center;
+  }
+
+  .daily-essential-cards {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .daily-essential-card .card-img {
+      width: 187px;
+      height: 187px;
+      border-radius: 16px;
+      background: var(--bg-Color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+  }
+
+  /*  .daily-essential-card:first-child .card-img,, added styles to this child to show the hover effect without hovering, like figma*/
+
+  .daily-essential-card:first-child .card-img,
+  .daily-essential-card .card-img:hover {
+      border: 1px solid var(--Primary, #008ECC);
+      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05), 0px 3px 7px 0px rgba(0, 0, 0, 0.05), 0px 13px 13px 0px rgba(0, 0, 0, 0.04), 0px 29px 18px 0px rgba(0, 0, 0, 0.03), 0px 52px 21px 0px rgba(0, 0, 0, 0.01), 0px 82px 23px 0px rgba(0, 0, 0, 0.00);
+  }
+
+
+  .daily-essential-card .card-info {
+      text-align: center;
+  }
+
+  .daily-essential-card .card-info span {
+      color: var(--text-Color);
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+  }
+
+  .daily-essential-card .card-info h4 {
+      color: var(--heading-Color);
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 20px;
+      margin-top: 4px;
   }
