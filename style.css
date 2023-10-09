@@ -10,7 +10,9 @@
       font-family: 'Hanken Grotesk', sans-serif;
   }
 
-
+  span {
+      display: inline-block;
+  }
 
   .container {
       max-width: 1200px;
