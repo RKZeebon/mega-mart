@@ -232,3 +232,60 @@
       background-color: var(--primary-Color);
       color: var(--white-text-Color);
   }
+
+
+  .hero {
+      margin-top: 20px;
+      padding: 0 90px;
+      background: #212844;
+      background-image: url(./assets/top-right-strock-ellipse.png), url(./assets/top-right-fill-ellipse.png), url(./assets/bottom-ellipse.png), url(./assets/bottom-ellipse-strock.png);
+      background-position: top right, top right, bottom right 248px, bottom right 233px;
+      background-repeat: no-repeat;
+
+      border-radius: 16px;
+      min-height: 316px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+  }
+
+  .hero-left h2 {
+      color: var(--white-text-Color);
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 30px;
+  }
+
+  .hero-left h1 {
+      color: var(--white-text-Color);
+      font-size: 63px;
+      font-weight: 700;
+      line-height: 63px;
+      margin: 20px 0;
+  }
+
+  .hero-left .navigation-dots {
+      margin-top: 73px;
+  }
+
+
+  .hero button {
+      width: 86px;
+      height: 86px;
+      background-color: var(--bg-second-Color);
+      border: 8px solid #FFF;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+  }
+
+  .hero button:first-child {
+      left: -43px;
+  }
+
+  .hero button:nth-child(2) {
+      right: -43px;
+  }
