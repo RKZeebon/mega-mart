@@ -35,6 +35,10 @@
       list-style-type: none;
   }
 
+  option {
+      padding: 20px 0;
+  }
+
   .container {
       max-width: 1200px;
       margin: 0 auto;
@@ -600,4 +604,126 @@
       font-weight: 700;
       line-height: 20px;
       margin-top: 4px;
+  }
+
+  footer {
+      background-color: var(--primary-Color);
+      background-image: url(./assets/footer-bg-fill.png), url(./assets/footer-bg-strock.png);
+      background-position: top right;
+      background-repeat: no-repeat;
+
+  }
+
+  .footer-top {
+      padding: 80px 0;
+      display: flex;
+      gap: 90px;
+  }
+
+
+  .footer-top .contact {
+      margin-top: 34px;
+      color: var(--white-text-Color);
+  }
+
+  .footer-top .contact h4 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 20px;
+      margin-bottom: 20px;
+  }
+
+  .footer-top .contact .whats-app {
+      margin-bottom: 20px;
+  }
+
+  .footer-top .contact .whats-app,
+  .footer-top .contact .call {
+      position: relative;
+  }
+
+  .footer-top .contact .whats-app::before,
+  .footer-top .contact .call::before {
+      content: url(./assets/icon/whatsapp.png);
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .footer-top .contact .whats-app::before {
+      content: url(./assets/icon/whatsapp.png);
+  }
+
+  .footer-top .contact .call::before {
+      content: url(./assets/icon/Call.png);
+  }
+
+  .contact .whats-app p,
+  .contact .call p {
+      font-size: 16px;
+      line-height: 20px;
+      padding-left: 35px;
+  }
+
+  .contact .whats-app p:first-child,
+  .contact .call p:first-child {
+      font-weight: 500;
+  }
+
+  .contact .whats-app p:last-child,
+  .contact .call p:last-child {
+      font-weight: 600;
+  }
+
+  .footer-top .download-app {
+      margin-top: 30px;
+      color: var(--white-text-Color);
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+  }
+
+  .footer-top .download-app h4 {
+      margin-bottom: 20px;
+
+  }
+
+  .footer-top .catagory-links h4,
+  .footer-top .services-links h4 {
+      color: var(--white-text-Color);
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 36px;
+      position: relative;
+      display: inline-block;
+  }
+
+  .footer-top .services-links h4::after,
+  .footer-top .catagory-links h4::after {
+      content: " ";
+      height: 3px;
+      width: 100%;
+      background-color: #FFF;
+      position: absolute;
+      right: 0;
+      bottom: -16px;
+  }
+
+  .footer-top li {
+      color: var(--white-text-Color);
+      margin-bottom: 18px;
+      list-style-type: disc;
+      margin-left: 15px;
+  }
+
+  .footer-bottom {
+      border-top: 1px solid #05ABF3;
+      padding: 30px 0;
+  }
+
+  .footer-bottom p {
+      color: var(--white-text-Color);
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
   }
