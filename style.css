@@ -455,3 +455,109 @@
       line-height: 20px;
       margin-top: 20px;
   }
+
+  .brands-cards {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .brands-cards .brand-card {
+      width: 389px;
+      height: 207px;
+      border-radius: 16px;
+      display: flex;
+      justify-content: space-between;
+      overflow: hidden;
+  }
+
+  .brand-card .card-img {
+      padding: 15px 20px;
+  }
+
+  .brand-card .card-img img {
+      width: 90%;
+  }
+
+  .brand-card .card-info {
+      padding: 20px;
+  }
+
+  .brands-cards .brand-card:first-child {
+      background-color: #313131;
+      background-image: url(./assets/iphone-masking.png);
+      background-repeat: no-repeat;
+      background-position: top right;
+  }
+
+  .brands-cards .brand-card:first-child span {
+      padding: 9px 20px;
+      border-radius: 8px;
+      background-color: #494949;
+  }
+
+  .brands-cards .brand-card:first-child .brand-logo {
+      margin: 20px 0;
+      background-color: #fff;
+      width: 62px;
+      height: 62px;
+      border-radius: 16px;
+      padding: 8px 12px;
+  }
+
+  .brands-cards .brand-card:first-child h3 {
+      color: var(--white-text-Color);
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 30px;
+  }
+
+  .brands-cards .brand-card:nth-child(2) {
+      background-color: #FFF3CC;
+      background-image: url(./assets/realme-masking.png);
+      background-repeat: no-repeat;
+      background-position: top right;
+  }
+
+  .brands-cards .brand-card:nth-child(2) span {
+      padding: 9px 20px;
+      border-radius: 8px;
+      background-color: #F6DE8D;
+  }
+
+  .brands-cards .brand-card:nth-child(2) .brand-logo {
+      margin: 20px 0;
+  }
+
+  .brands-cards .brand-card:nth-child(2) h3,
+  .brands-cards .brand-card:last-child h3 {
+      color: var(--heading-Color);
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 30px;
+      white-space: nowrap;
+  }
+
+
+
+  .brands-cards .brand-card:last-child {
+      background-color: #FFECDF;
+      background-image: url(./assets/xiaomi-masking.png);
+      background-repeat: no-repeat;
+      background-position: top right;
+  }
+
+  .brands-cards .brand-card:last-child span {
+      padding: 9px 20px;
+      border-radius: 8px;
+      background-color: #FFD1B0;
+  }
+
+  .brands-cards .brand-card:last-child .brand-logo {
+      margin: 15px 0;
+  }
+
+  .card-navigation-dots {
+      margin-top: 30px;
+      text-align: center;
+  }
